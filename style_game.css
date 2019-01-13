@@ -1,0 +1,76 @@
+body {
+  background-color: #38692b;
+  font-family: "Baloo Bhai", cursive;
+  margin: 0;
+  padding: 0;
+}
+.name {
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.name h1 {
+  font-size: 40px;
+  color: hsl(36, 52%, 42%);
+}
+.game {
+  height: 95vh;
+  width: 100%;
+  box-sizing: border-box;
+  background: url(image/jungle.jpg) no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+  overflow: hidden;
+}
+.head {
+  display: flex;
+  position: relative;
+}
+.arg {
+  display: flex;
+  flex-direction: column;
+}
+.arg span {
+  font-size: 40px;
+  color: #fff;
+  margin: 10px 0 0 10px;
+}
+.ad_heart {
+  width: 210px;
+  margin: 10px 0 0 10px;
+}
+.fly_things {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.monkey {
+  height: 200px;
+  transform: rotate(-10deg) translate(0, -15px);
+  position: absolute;
+  right: 20px;
+}
+.apple,
+.cone,
+.heart {
+  height: 50px;
+}
+.rabbit_move {
+  position: absolute;
+  bottom: 0;
+}
+#rabbit {
+  bottom: 0;
+  height: 130px;
+  transition: all 0.05 linear;
+}
+.direction {
+  transform: rotateY(180deg);
+}
+.item {
+  position: absolute;
+}
+.cone {
+  transition: all 5s linear;
+}
